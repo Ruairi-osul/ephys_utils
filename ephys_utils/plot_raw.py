@@ -16,15 +16,16 @@ def load_dat_data(p, n_chans=32):
 
 
 def plot_raw(
-    p, 
-    spiketimes, 
-    chan, 
-    n_chans=32, 
-    t_start=None, 
-    total_duration=5, 
-    ax=None, 
+    p,
+    spiketimes,
+    chan,
+    n_chans=32,
+    t_start=None,
+    total_duration=5,
+    ax=None,
     fs=30000,
-    skip=100):
+    skip=100,
+):
     """
     Plots raw spiketrain
     Given the path to raw data and an array of spiktimes, and a channel,
